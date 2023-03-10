@@ -1,0 +1,26 @@
+body
+{
+  background: #5D4157;  
+  background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);  
+  background: linear-gradient(to right, #A8CABA, #5D4157); 
+}
+h1
+{
+  display: flex;
+  text-align: center;
+  color: black;
+  justify-content: space-around;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+p
+{
+  display: flex;
+  text-align: center;
+  color: black;
+  justify-content: space-around;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 400;
+}
