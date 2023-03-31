@@ -9,6 +9,7 @@
   padding: 2%;
   align-items: center;
   justify-content: space-around;
+  border-bottom: 2px solid rgb(0,0,0);
 }
 .logo
 {
@@ -28,6 +29,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px;
+  border-bottom: 2px solid rgb(0,0,0);
 }
 .container
 {
@@ -35,10 +38,11 @@
   width: 80%;
   margin: auto;
   text-align: center;
+  border-radius: 50px;
 }
 .banner
 {
-  width: 100%;
+  width: 90%;
   height: 40%;
 }
 footer
@@ -47,4 +51,12 @@ footer
   background-color: darkgray;
   width: 100%;
 }
+p
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 400;
+  padding: 18px;
+}
+
 
