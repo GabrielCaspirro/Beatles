@@ -141,6 +141,13 @@ body
   float: right;
 }
 
+.soc{
+  padding-top:2%;
+  height:2%;
+  width:2%;
+  border: none;
+}
+
 .imgClass
 {
   width: 10%;

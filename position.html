@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        header{
+            background-color: rgb(154, 120, 110);
+            border: 2px solid rgb(120, 90, 35);
+            border-radius: 12px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1024;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h2{
+            background-color: rgb(237, 86, 86);
+            border-radius: 7px;
+            border: 2px solid rgb(145, 35, 35);
+            margin: 0;
+            padding: 0;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        body{
+            background-color: bisque;
+        }
+
+        p{
+            padding: 1%;
+        }
+
+        .text{
+            border: 2px solid rgb(148, 35, 35);
+            background-color: rgb(240, 91, 91);
+            margin-top: 2%;
+            border-radius: 8px;
+            position: relative;
+            top: 80px;
+        }
+        .container{
+            background-color: rgb(138, 0, 0);
+            border-radius: 12px;
+            border: 2px solid rgb(90, 0, 0);
+            width: 100%;
+            height: 1440px;
+            top: 90px;
+            position: relative;
+        }
+
+        .button1{
+            background-color: rgb(232, 173, 119);
+            border: 2px solid rgb(154, 87, 32);
+            border-radius: 12px;
+            width: 10%;
+            position: absolute;
+            left: 16px;
+            top: 50px;
+        }
+
+        .button2{
+            background-color: rgb(252, 188, 128);
+            border: 2px solid rgb(154, 87, 32);
+            width: 10%;
+            border-radius: 12px;
+            position: absolute;
+            right: 16px;
+            top: 50px;
+        }
+
+        .button3{
+            background-color: rgb(232, 183, 137);
+            border: 2px solid rgb(154, 87, 32);
+            border-radius: 12px;
+            width: 10%;
+            position: absolute;
+            left: 16px;
+            bottom: 50px;
+        }
+
+        .button4{
+            background-color: rgb(252, 199, 150);
+            border: 2px solid rgb(154, 87, 32);
+            border-radius: 12px;
+            width: 10%;
+            position: absolute;
+            right: 16px;
+            bottom: 50px;
+        }
+
+        .button5{
+            background-color: rgb(252, 199, 150);
+            border: 2px solid rgb(154, 87, 32);
+            border-radius: 12px;
+            width: 10%;
+            position: absolute;
+            right: 45%;
+            bottom: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site Position</h1>
+    </header>
+
+    <div class = "text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quos doloremque corporis reprehenderit accusantium numquam. Ex reprehenderit hic id? Sit sequi tenetur expedita reprehenderit repellendus laudantium deserunt nam animi molestias?</p>
+    </div>
+
+    <div class = "text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero autem atque provident qui fugiat ex voluptates iusto nesciunt vel dolorem? Numquam non ullam officiis voluptatem quaerat incidunt repellat error quisquam.</p>
+    </div>
+
+    <div class = "main">
+        <div class = "container">
+
+            <h2>Teste...</h2>
+    
+            <div class = "button1">
+                <h3>Left Top</h3>
+            </div>
+    
+            <div class = "button2">
+                <h3>Right Top</h3>
+            </div>
+    
+            <div class = "button3">
+                <h3>Left Bottom</h3>
+            </div>
+    
+            <div class = "button4">
+                <h3>Right Bottom</h3>
+            </div>
+
+            <div class = "button5">
+                <h3>Center</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
