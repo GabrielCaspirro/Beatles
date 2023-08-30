@@ -89,8 +89,6 @@ body
 }
 .header
 {
-  text-align: center;
-  justify-content: center;
   border-bottom: 2px solid rgb(0,0,0);
 }
 
@@ -98,6 +96,14 @@ body
 {
   list-style-image: url(../img/guitarra-eletrica.png);
 }
+
+.resp
+{
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+}
+
 .nav1
 {
   display: flex;
@@ -194,5 +200,13 @@ li:hover
   }
   .col-6{
     width: 100%;
+  }
+}
+
+@media(max-width: 650px){
+  .resp{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
